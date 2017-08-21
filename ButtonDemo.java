@@ -1,3 +1,6 @@
+//Author: Mary
+//Date: 21 August 2017
+
 import javafx.application.Application;
 import javafx.stage.Stage;
 import javafx.geometry.Pos;
@@ -12,6 +15,7 @@ import javafx.scene.text.Text;
 public class ButtonDemo extends Application {
   protected Text text = new Text(50, 50, "JavaFX Programming");
   
+
   protected BorderPane getPane() {
     HBox paneForButtons = new HBox(20);
     Button btLeft = new Button("Left", 
