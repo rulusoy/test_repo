@@ -16,7 +16,8 @@ import javafx.scene.text.Text;
 public class ButtonDemo extends Application {
   protected Text text = new Text(50, 50, "JavaFX Programming");
   
-
+  //The getPane() method
+  //added by Mary
   protected BorderPane getPane() {
     HBox paneForButtons = new HBox(20);
     Button btLeft = new Button("Left", 
